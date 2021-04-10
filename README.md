@@ -1,5 +1,8 @@
 # panache-blanc
 
+basic React SPA, Nodejs + express server api
+built for a MongoDB database
+
 ===============
 
 # start instances
