@@ -1,0 +1,8 @@
+.difference {mix-blend-mode: difference;}
+.exclusion {mix-blend-mode: exclusion;}
+.screen {mix-blend-mode: screen;}
+.multiply {mix-blend-mode: multiply;}
+.darken {mix-blend-mode: darken;}
+.lighten {mix-blend-mode: lighten;}
+.color {mix-blend-mode: color;}
+.saturation {mix-blend-mode: saturation;}

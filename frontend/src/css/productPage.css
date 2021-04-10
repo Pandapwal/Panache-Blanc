@@ -1,0 +1,8 @@
+.product-gallery {
+    overflow: hidden;
+}
+
+.product-image-frame {
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,32 @@
+.last-link {
+    border-right: solid 1px rgb(119, 119, 119);
+}
+
+ul.navbar-nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+ul.navbar-nav {
+    padding: 0;
+    margin: 0;
+}
+ul.navbar-nav li a {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+ul.navbar-nav li a:hover {
+    color: #FFF;
+    border-bottom: solid 5px rgba(0, 153, 255, 0.8);
+}
+ul.navbar-right {
+    margin-left: auto;
+    margin-right: 0;
+}
+ul.navbar-nav li a.active {
+    color: #FFF;
+    border-bottom: solid 5px #0099FF;
+}
