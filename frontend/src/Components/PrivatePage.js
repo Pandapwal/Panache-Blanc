@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import getCookie from './getCookie';
+import "../css/profile.css";
 
 export default class PrivatePage extends React.Component{
   constructor(props){
@@ -39,13 +40,21 @@ export default class PrivatePage extends React.Component{
 
   render(){
     return(
-      <div className="content col-lg-8 col-xs-12 mx-auto">
-        <h1>You have successfully logged in. Now, you have access to this page!</h1>
-        <h2>List of items:</h2>
-        <div>{this.state.user.name}</div>
-        <div>{this.state.user.role}</div>
-        <div>{this.state.user.email}</div>
-        <button onClick={this.logout} className="btn border-blue rounded-pill text-white">déconnexion</button>
+      <div className="content profile-container">
+        <div className="col-12 cover"></div>
+        <div className="col-md-8 col-xs-12 mx-auto">
+          <div className="content mx-auto profile d-flex justify-content-center">
+            <div className="profile-picture"><img className="rounded-circle" src="https://picsum.photos/200"></img></div>
+            <div className="mt-auto mb-5">
+              <h3 className="mx-3">{this.state.user.name}</h3>
+              <h6>{this.state.user.email}</h6>
+            </div>
+          </div>
+          <div className="content profile-info">
+            {this.state.user.email}
+          </div>
+          <h3 className="col">Commandes passées</h3>
+        </div>
       </div>
     );
   };

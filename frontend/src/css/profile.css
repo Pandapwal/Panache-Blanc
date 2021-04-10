@@ -1,0 +1,19 @@
+.profile {
+    transform: translateY(-100px);
+}
+
+.profile-container {
+    min-height: 100%;
+    padding: 0!important;
+}
+
+.cover {
+    height: 250px;
+    background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.profile-picture img {
+    border: 8px solid rgb(50, 50, 60);
+}
